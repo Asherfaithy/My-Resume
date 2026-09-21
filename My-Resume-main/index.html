@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.4;
+            color: #333;
+            background: white;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.75in;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #2c3e50;
+        }
+        
+        .name {
+            font-size: 32px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+        
+        .contact-info {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        
+        .contact-info a {
+            margin: 0 15px;
+        }
+        
+        .section {
+            margin-bottom: 25px;
+        }
+        
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #2c3e50;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #bdc3c7;
+        }
+        
+        .summary {
+            font-size: 14px;
+            line-height: 1.6;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+        
+        .job {
+            margin-bottom: 20px;
+        }
+        
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+        
+        .job-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .company {
+            font-size: 14px;
+            color: #34495e;
+            margin-bottom: 3px;
+        }
+        
+        .date-location {
+            font-size: 13px;
+            color: #7f8c8d;
+            text-align: right;
+            font-style: italic;
+        }
+        
+        .job-description {
+            font-size: 13px;
+            line-height: 1.5;
+            margin-left: 0;
+        }
+        
+        .job-description li {
+            margin-bottom: 6px;
+            list-style-type: disc;
+            margin-left: 18px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 8px;
+            font-size: 13px;
+        }
+        
+        .skills-grid li {
+            list-style-type: disc;
+            margin-left: 18px;
+        }
+        
+        .tags {
+            margin-top: 8px;
+            font-size: 12px;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        
+        .certification {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+        
+        .cert-name {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .cert-org {
+            color: #7f808d;
+            font-style: italic;
+        }
+        
+        @media print {
+            body {
+                padding: 0.5in;
+                font-size: 12px;
+            }
+            
+            .section {
+                break-inside: avoid;
+                margin-bottom: 20px;
+            }
+            
+            .job {
+                break-inside: avoid;
+                margin-bottom: 15px;
+            }
+            .main-color {
+                color: #3F68C0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="name main-color">ASHER</div>
+        <div class="contact-info main-color">
+            <a href="mailto:awudangfaith@gmail.com">awudangfaith@gmail.com</a>
+            <a href="https://x.com/faithy_danniel">@faithy_danniel</a>
+            <a href="https://t.me/faithy_danniel">@faithy_danniel</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Professional Summary</div>
+        <div class="summary">
+            Brand storyteller, technical writer, and content strategist with 3+ years of experience within the Solana ecosystem. Proven ability to bridge the gap between technical utility and creative narrative to drive community engagement. A recognized researcher and ecosystem contributor dedicated to breaking down complex protocols into accessible, high-impact content.
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title main-color">Professional Experience</div>
+
+        <div class="job">
+            <div class="job-header">
+                <div>
+                    <div class="job-title main-color">Writer & Contributor SuperteamNG</div>
+                    <div class="company">Superteam Earn</div>
+                </div>
+                <div class="date-location">June 2024 - Present</div>
+            </div>
+            <ul class="job-description">
+                <li>Served as a contributing author for the 2025 Solana magazine, "This is Solana," collaborating with a global team of 20+ writers to document ecosystem growth</li>
+                <li>Leveraged high-value writing bounties on Superteam Earn to secure a core contributor role, specializing in protocol deep dives and educational long-form articles.</li>
+                <li>Successfully translated complex blockchain concepts into creative narratives,winning 4 bounties on Superteamearn and securing 2nd place in the 2025 Solana Contentathon (Infinity Labs track)</li>
+                <li>Executed multi-format content strategies including threads, videos, and technical reports to increase retail and developer engagement</li>
+            </ul>
+            <div class="tags">Technical Writing | Article Writing | Content Strategy | Solana | Research</div>
+        </div>
+    </div>
+
+        </div>
+
+                <div class="job">
+            <div class="job-header">
+                <div>
+                    <div class="job-title main-color">Lead Writer</div>
+                    <div class="company">SuperteamNG - Plateau state</div>
+                </div>
+                <div class="date-location">February 2024 - Present</div>
+            </div>
+            <ul class="job-description">
+                <li>Managed community members within the Plateau State region, ensuring consistent communication and alignment with national Superteam operations.</li>
+                <li>Mentored emerging writers in developing technical communication skills and guide their participation in ecosystem contributions via Superteam Earn.</li>
+                <li>Moderated regular community calls and curate educational resources to connect members to earning prospects within the Web3 writing space.</li>
+            </ul>
+        </div>
+        
+    <div class="section">
+        <div class="section-title main-color">Skills</div>
+        <ul class="skills-grid">
+            <li>Research</li>
+            <li>Content Strategy</li>
+            <li>Technical Writing</li>
+            <li>Video content creation</li>
+            <li>Brand Voice Development</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <div class="section-title main-color">Education & Certifications</div>
+        <div class="certification">
+            <div>
+                <span class="cert-org">Solana SuperteamNG Media Bootcamp</span>
+            </div>
+            <div class="date-location">2025</div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
